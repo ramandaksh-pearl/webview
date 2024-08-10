@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
     subscription.cancel();
     super.dispose();
   }
-
+///code push
   getConnectivity() {
     subscription = Connectivity().onConnectivityChanged.listen(
           (ConnectivityResult result) async {
