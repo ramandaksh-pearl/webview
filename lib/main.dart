@@ -16,7 +16,7 @@ class webapp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: HomeScreen(),
+        body: SplashScreen(),
       ),
     );
   }

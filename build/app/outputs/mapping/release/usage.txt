@@ -1937,6 +1937,7 @@ com.pearl.wellington.live.R$string
 com.pearl.wellington.live.R$style
 com.pearl.wellington.live.R$styleable
 com.pearl.wellington.live.R
+com.pearl.wellington.webview.MainActivity
 dev.fluttercommunity.plus.connectivity.BuildConfig
 dev.fluttercommunity.plus.connectivity.Connectivity:
     static final java.lang.String CONNECTIVITY_BLUETOOTH

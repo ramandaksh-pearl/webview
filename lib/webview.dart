@@ -1,10 +1,8 @@
-// ignore_for_file: unused_import, prefer_final_fields, unused_field
-
 import 'dart:async';
+import 'dart:ui';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
@@ -23,6 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
   bool hasLoadedWebView = false;
   int _currentIndex = 0;
   final String _webUrl = 'https://jakubs-plants.com/';
+
   @override
   void initState() {
     super.initState();
@@ -83,17 +82,40 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  Future<bool> _onWillPop() async {
+    if (await _webViewController.canGoBack()) {
+      _webViewController.goBack();
+      return false;
+    } else {
+      return await showCupertinoDialog<bool>(
+        context: context,
+        builder: (context) {
+          return BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
+            child: CupertinoAlertDialog(
+              title: const Text('Exit App'),
+              content: const Text('Do you want to exit the app?'),
+              actions: <Widget>[
+                CupertinoDialogAction(
+                  child: const Text('No'),
+                  onPressed: () => Navigator.of(context).pop(false),
+                ),
+                CupertinoDialogAction(
+                  child: const Text('Yes'),
+                  onPressed: () => Navigator.of(context).pop(true),
+                ),
+              ],
+            ),
+          );
+        },
+      ) ?? false;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () async {
-        if (await _webViewController.canGoBack()) {
-          _webViewController.goBack();
-          return false;
-        } else {
-          return true;
-        }
-      },
+      onWillPop: _onWillPop,
       child: Scaffold(
         body: SafeArea(
           child: isDeviceConnected
@@ -101,9 +123,9 @@ class _HomeScreenState extends State<HomeScreen> {
             controller: _webViewController,
           )
               : const Center(
-            child:
-            CupertinoActivityIndicator(radius: 25,),
-            //Text('Please Wait'),
+                child: CupertinoActivityIndicator(
+                radius: 25,
+            ),
           ),
         ),
       ),
