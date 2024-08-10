@@ -1,0 +1,188 @@
+-- Merging decision tree log ---
+application
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:4:5-35:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\PeralUser\.gradle\caches\transforms-3\fc29f8815cd1488ac8758c307e7e746a\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\PeralUser\.gradle\caches\transforms-3\fc29f8815cd1488ac8758c307e7e746a\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PeralUser\.gradle\caches\transforms-3\3bee4436f95891198ab28d2554099833\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PeralUser\.gradle\caches\transforms-3\3bee4436f95891198ab28d2554099833\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\PeralUser\.gradle\caches\transforms-3\fc29f8815cd1488ac8758c307e7e746a\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:5:9-38
+	android:icon
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:7:9-45
+	android:name
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:6:9-42
+manifest
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [:connectivity_plus] F:\Raman\webview\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:webview_flutter_android] F:\Raman\webview\build\webview_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\7a4c6424b9ac40c5221c60c7b1743df5\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.webkit:webkit:1.11.0] C:\Users\PeralUser\.gradle\caches\transforms-3\849ff06a5659e9d176b953f2d0edd6d2\transformed\webkit-1.11.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\PeralUser\.gradle\caches\transforms-3\76c21dfb2d4b0539008b403f80b0bcf6\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\ef62f385230eb524068daacad5ff56d9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0da5bffdc5f46d18b6042a8ba5353bc9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\4da9f4601efb22a4630e1854f00b4c25\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0e1928febd66ba410b4ba7c6a8a65a50\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\PeralUser\.gradle\caches\transforms-3\fc29f8815cd1488ac8758c307e7e746a\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\PeralUser\.gradle\caches\transforms-3\8b6ec350c084918e64fdd5b59e7a23c4\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0e9ef748d55c1b843479477a933c82de\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\d9acbbe77ae85173da5211efebc5c292\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\f63ed1a0edb149ee841e95aee87af2a3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0cec739592ef1ad7bf519d37d32572d2\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\2dc73651e671c4e0229bc67d12adf624\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PeralUser\.gradle\caches\transforms-3\3bee4436f95891198ab28d2554099833\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\PeralUser\.gradle\caches\transforms-3\840e866dbe84a4892b4f912b2caba4e0\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\PeralUser\.gradle\caches\transforms-3\e69d48417517e25361ce30ce5eeec8ac\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+	package
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:2:5-66
+	android:name
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:2:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:3:5-78
+MERGED from [:connectivity_plus] F:\Raman\webview\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+MERGED from [:connectivity_plus] F:\Raman\webview\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:3:22-76
+queries
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:41:5-46:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:42:9-45:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:43:21-70
+data
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:44:13-50
+	android:mimeType
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:44:19-48
+uses-sdk
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+MERGED from [:connectivity_plus] F:\Raman\webview\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] F:\Raman\webview\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] F:\Raman\webview\build\webview_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] F:\Raman\webview\build\webview_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\7a4c6424b9ac40c5221c60c7b1743df5\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\7a4c6424b9ac40c5221c60c7b1743df5\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.11.0] C:\Users\PeralUser\.gradle\caches\transforms-3\849ff06a5659e9d176b953f2d0edd6d2\transformed\webkit-1.11.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.11.0] C:\Users\PeralUser\.gradle\caches\transforms-3\849ff06a5659e9d176b953f2d0edd6d2\transformed\webkit-1.11.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\PeralUser\.gradle\caches\transforms-3\76c21dfb2d4b0539008b403f80b0bcf6\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\PeralUser\.gradle\caches\transforms-3\76c21dfb2d4b0539008b403f80b0bcf6\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\ef62f385230eb524068daacad5ff56d9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\ef62f385230eb524068daacad5ff56d9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0da5bffdc5f46d18b6042a8ba5353bc9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0da5bffdc5f46d18b6042a8ba5353bc9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\4da9f4601efb22a4630e1854f00b4c25\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\4da9f4601efb22a4630e1854f00b4c25\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0e1928febd66ba410b4ba7c6a8a65a50\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0e1928febd66ba410b4ba7c6a8a65a50\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\PeralUser\.gradle\caches\transforms-3\fc29f8815cd1488ac8758c307e7e746a\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\PeralUser\.gradle\caches\transforms-3\fc29f8815cd1488ac8758c307e7e746a\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\PeralUser\.gradle\caches\transforms-3\8b6ec350c084918e64fdd5b59e7a23c4\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\PeralUser\.gradle\caches\transforms-3\8b6ec350c084918e64fdd5b59e7a23c4\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0e9ef748d55c1b843479477a933c82de\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0e9ef748d55c1b843479477a933c82de\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\d9acbbe77ae85173da5211efebc5c292\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\d9acbbe77ae85173da5211efebc5c292\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\f63ed1a0edb149ee841e95aee87af2a3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\f63ed1a0edb149ee841e95aee87af2a3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0cec739592ef1ad7bf519d37d32572d2\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\0cec739592ef1ad7bf519d37d32572d2\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\2dc73651e671c4e0229bc67d12adf624\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\PeralUser\.gradle\caches\transforms-3\2dc73651e671c4e0229bc67d12adf624\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PeralUser\.gradle\caches\transforms-3\3bee4436f95891198ab28d2554099833\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PeralUser\.gradle\caches\transforms-3\3bee4436f95891198ab28d2554099833\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\PeralUser\.gradle\caches\transforms-3\840e866dbe84a4892b4f912b2caba4e0\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\PeralUser\.gradle\caches\transforms-3\840e866dbe84a4892b4f912b2caba4e0\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\PeralUser\.gradle\caches\transforms-3\e69d48417517e25361ce30ce5eeec8ac\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\PeralUser\.gradle\caches\transforms-3\e69d48417517e25361ce30ce5eeec8ac\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml
+activity#com.pearl.wellington.live.MainActivity
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:8:9-29:20
+	android:launchMode
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:11:13-43
+	android:hardwareAccelerated
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:15:13-47
+	android:windowSoftInputMode
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:16:13-55
+	android:exported
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:10:13-36
+	android:configChanges
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:14:13-163
+	android:theme
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:13:13-47
+	android:taskAffinity
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:9:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:21:13-24:17
+	android:resource
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:23:15-52
+	android:name
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:22:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:26:17-68
+	android:name
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:27:17-76
+	android:name
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:27:27-74
+meta-data#flutterEmbedding
+ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:32:9-34:33
+	android:value
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:34:13-30
+	android:name
+		ADDED from F:\Raman\webview\android\app\src\main\AndroidManifest.xml:33:13-44
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\PeralUser\.gradle\caches\transforms-3\f55ed073faea651a9045c431b855a2d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
