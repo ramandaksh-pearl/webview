@@ -7,7 +7,7 @@ import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -19,7 +19,6 @@ class _HomeScreenState extends State<HomeScreen> {
   bool isDeviceConnected = false;
   bool isAlertSet = false;
   bool hasLoadedWebView = false;
-  int _currentIndex = 0;
   final String _webUrl = 'https://jakubs-plants.com/';
 
   @override
