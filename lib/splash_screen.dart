@@ -68,7 +68,7 @@ class _SplashScreenState extends State<SplashScreen>
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image(
-                  image: const NetworkImage('https://jakubs-plants.com/assets/images/logo.jpg'),
+                  image: const NetworkImage('https://wellington.live/wp-content/webp-express/webp-images/uploads/2024/07/nonstop-logo-small.png.webp'),
                   width: screenWidth * 0.5,
                   height: screenHeight * 0.3,
                   fit: BoxFit.contain, // Ensures the image covers the widget bounds
