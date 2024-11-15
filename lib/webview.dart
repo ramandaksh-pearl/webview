@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
   bool isDeviceConnected = false;
   bool isAlertSet = false;
   bool hasLoadedWebView = false;
-  final String _webUrl = 'https://wellington-1.vercel.app/';
+  final String _webUrl = 'https://game.wellington.live/';
 
   @override
   void initState() {
