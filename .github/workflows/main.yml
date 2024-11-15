@@ -25,7 +25,8 @@ jobs:
 
       # Step 4: Run `flutter pub get` to install dependencies
       - run: flutter pub get
-
+      - run: dart run flutter_launcher_icons
+      
       # Step 5: Build the APK in release mode
       - run: flutter build apk --release
 
