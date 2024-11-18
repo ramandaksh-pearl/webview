@@ -68,7 +68,7 @@ class _SplashScreenState extends State<SplashScreen>
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image(
-                  image: const NetworkImage('https://drive.google.com/file/d/1M-NEpeRbC6Z06jGKEb3-qtUYMrNGC-Tt/view?usp=sharing'),
+                  image: const NetworkImage('https://github.com/ramandaksh-pearl/webview/blob/master/images/img.png?raw=true'),
                   width: screenWidth * 0.5,
                   height: screenHeight * 0.3,
                   fit: BoxFit.contain, // Ensures the image covers the widget bounds
