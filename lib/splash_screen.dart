@@ -68,7 +68,7 @@ class _SplashScreenState extends State<SplashScreen>
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image(
-                  image: const NetworkImage('https://github.com/ramandaksh-pearl/webview/blob/master/images/img.png?raw=true'),
+                  image: const NetworkImage('https://hpanel.hostinger.com/assets/images/logos/hostinger-black.svg'),
                   width: screenWidth * 0.5,
                   height: screenHeight * 0.3,
                   fit: BoxFit.contain, // Ensures the image covers the widget bounds
