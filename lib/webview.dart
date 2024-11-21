@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
   bool isDeviceConnected = false;
   bool isAlertSet = false;
   bool hasLoadedWebView = false;
-  final String _webUrl = 'https://projectgaming.in/';
+  final String _webUrl = 'https://www.dealmih.com/';
 
   @override
   void initState() {
